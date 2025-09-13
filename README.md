@@ -17,7 +17,7 @@ Welcome to your first week of Java programming! This week lays the foundation fo
 - Solve small problems using loops and conditionals
 - Daily practice exercises
 
-## AssignmentE
+## Assignment
 
 Build a simple Java calculator that can perform basic arithmetic operations.
 
