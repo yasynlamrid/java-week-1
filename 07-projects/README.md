@@ -1,4 +1,4 @@
-# 🌟 Simple Java Projects for Beginners
+# 📚 Java Projects – Week 1
 
 Now that you’ve learned the **fundamentals of Java** — from setup and writing your first program to variables,
 operators, control structures, loops, and console input/output — it’s time to put your knowledge into practice
