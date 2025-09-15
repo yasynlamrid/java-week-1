@@ -59,14 +59,44 @@ public class ComparisonE
         // -------------------- Student Exercises --------------------
         // 1. Create int a = 50, b = 25 and compare them.
 
+        int a = 50, b = 25;
+        System.out.println("a == b : " + (a == b));
+        System.out.println("a != b : " + (a != b));
+        System.out.println("a > b  : " + (a > b));
+        System.out.println("a < b  : " + (a < b));
+        System.out.println("a >= b : " + (a >= b));
+        System.out.println("a <= b : " + (a <= b));
+
         // 2. Create double p = 5.5, q = 7.2 and compare them.
+
+        double p = 5.5, q = 7.2;
+        System.out.println("p == q : " + (p == q));
+        System.out.println("p != q : " + (p != q));
+        System.out.println("p > q  : " + (p > q));
+        System.out.println("p < q  : " + (p < q));
+        System.out.println("p >= q : " + (p >= q));
+        System.out.println("p <= q : " + (p <= q));
 
         // 3. Create char c1 = 'A', c2 = 'B' and check if c1 < c2.
 
+        char c1 = 'A', c2 = 'B';
+        System.out.println("c1 < c2 : " + (c1 < c2));
+
         // 4. Check if (x < y) AND (x != y).
+
+        System.out.println("(x < y) AND (x != y) : " + ((x < y) && (x != y)));
 
         // 5. Compare two Strings using .equals() instead of ==.
 
+        String myFirstName = "Yassin";
+        String myLastName = "Lamrid";
+        System.out.println("Compare Yassin with Lamrid: " + myLastName.equals(myFirstName));
+
         // 6. Create three int variables and determine the largest.
+
+        int num1 = 56, num2 = 34, num3 = 100;
+        int max1 = num1 > num2 ? num1 : num2;
+        int max = max1 > num3 ? max1 : num3;
+        System.out.println("The largest number is: " + max);
     }
 }
