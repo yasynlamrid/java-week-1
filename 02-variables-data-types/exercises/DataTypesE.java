@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Exercises:
  * -----------------------------------------------------------------
@@ -50,22 +52,50 @@ public class DataTypesE
         // -------------------- Student Exercises --------------------
         // 1. Create an int variable called age and assign it your age
 
+        int myAge = 31;
+
         // 2. Create a double variable called temperature and assign it any decimal
+
+        double temperature = 19.3;
 
         // 3. Create a char variable called gradeLetter and assign it a letter
 
+        char gradeLetter = 'Z';
+
         // 4. Create a boolean variable called isJavaFun and assign true or false
 
-        // 5. Create a String variable called favoriteColor and assign it a color
+        boolean isJavaFun = true;
 
-        // 6. Create an int array called numbers with at least 5 values, then print them
+        // 5. String variable
+        String favoriteColor = "Red";
 
-        // 7. Change one value inside numbers and print the updated array
+        // 6. int array
 
-        // 8. Create a String array with 3 favorite foods and print them in a loop
+        int[] numbers = {2, 4, 6, 8, 10, 12, 14};
+        System.out.println(Arrays.toString(numbers));
 
-        // 9. Create two double variables, add them together, and print the result
+        // 7. Change one value
 
-        // 10. Use String concatenation to print: "My name is ___ and I am ___ years old."
+        numbers[2] = 100;
+        System.out.println(Arrays.toString(numbers));
+
+        // 8. String array with 3 favorite foods
+
+        String[] StrArray = {"tajine", "pizza", "kebab"};
+        for (String food : StrArray) {
+            System.out.println(food);
+        }
+
+        // 9. Double addition
+
+        double a = 10.78;
+        double b = 12.1;
+        double result = a + b;
+        System.out.println("a + b = " + result);
+
+        // 10. String concatenation
+
+        String myName = "Yasyn";
+        System.out.println("My name is " + myName + " and I am " + myAge + " years old.");
     }
 }
