@@ -16,10 +16,10 @@ public class Assignment
         int a = 10; // Assignment
         System.out.println("Initial value of a: " + a);
 
-        a += 5; // Addition assignment
+        a += 5; // Addition assignment a = a + 5
         System.out.println("After a += 5: " + a);
 
-        a -= 3; // Subtraction assignment
+        a -= 3; // Subtraction assignment a = a - 3
         System.out.println("After a -= 3: " + a);
 
         a *= 2; // Multiplication assignment

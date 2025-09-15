@@ -29,7 +29,7 @@ public class DataTypes
 
         // --- Non-Primitive Data Types ---
         String myString = "Hello, World!";
-        int[] grades = {90, 85, 88};
+        int[] grades = {90, 85, 88, 92, 95};
 
 
 
@@ -42,12 +42,11 @@ public class DataTypes
 
         System.out.println("\n=== Non-Primitive Data Types ===");
         System.out.println("String: " + myString);
-        System.out.print("Array of grades: ");
+        System.out.println("Array of grades: ");
         for (int grade : grades) 
         {
-            System.out.print(grade + " ");
+            System.out.println(grade );
         }
-        System.out.println();
     }
 }
 

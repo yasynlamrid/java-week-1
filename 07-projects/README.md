@@ -10,7 +10,9 @@ and prepare you for building bigger applications later.
 ## 📝 Project Ideas
 
 ### 1. 📏 Simple Calculator
+
 **Concepts used:** Variables, operators, input/output.  
+
 - Ask the user to enter two numbers.  
 - Ask for an operation (`+`, `-`, `*`, `/`).  
 - Use an **if-else** or **switch** to perform the correct calculation.  
@@ -19,7 +21,9 @@ and prepare you for building bigger applications later.
 ---
 
 ### 2. 🔢 Number Guessing Game
+
 **Concepts used:** Variables, conditionals, loops, input.  
+
 - Generate a random number between 1 and 100.  
 - Ask the user to guess the number.  
 - Tell them if their guess is too high, too low, or correct.  
@@ -28,7 +32,9 @@ and prepare you for building bigger applications later.
 ---
 
 ### 3. 📅 Day of the Week Finder
+
 **Concepts used:** Switch statement, input/output.  
+
 - Ask the user to enter a number (1–7).  
 - Use a **switch** to print the day of the week (1 = Monday, … 7 = Sunday).  
 - Handle invalid input gracefully.
@@ -36,12 +42,14 @@ and prepare you for building bigger applications later.
 ---
 
 ### 4. 🧮 Multiplication Table Generator
+
 **Concepts used:** Loops, input/output.  
+
 - Ask the user for a number.  
 - Print its multiplication table (1–10) using a **for loop**.  
 - Example for input `5`:  
-```
 
+```bash
 5 x 1 = 5
 5 x 2 = 10
 ...
@@ -52,7 +60,9 @@ and prepare you for building bigger applications later.
 ---
 
 ### 5. 🎓 Student Grade Calculator
+
 **Concepts used:** Arrays, loops, input/output, conditionals.  
+
 - Ask the user for the number of subjects.  
 - Read marks for each subject into an array.  
 - Calculate the total and average.  
@@ -65,11 +75,11 @@ and prepare you for building bigger applications later.
 ---
 
 ### 6. 🔁 Palindrome Checker
+
 **Concepts used:** Strings, loops, conditionals.  
+
 - Ask the user to enter a word.  
 - Check if it reads the same forward and backward.  
 - Print whether it’s a palindrome.  
 
 ---
-
-

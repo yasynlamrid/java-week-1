@@ -13,6 +13,7 @@ public class Ternary
         int a = 10;
         int b = 20;
 
+        // conditions ?  value if true : value if false
         // Using the ternary operator to find the maximum of two numbers
         int max = (a > b) ? a : b;
 

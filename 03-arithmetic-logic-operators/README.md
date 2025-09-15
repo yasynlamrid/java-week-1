@@ -5,7 +5,8 @@ Operators are special symbols used to perform operations on variables and values
 
 ---
 
-## 🔹 1. ArithmeticE Operators
+## 🔹 1. Arithmetic Operators
+
 Used to perform basic mathematical operations.
 
 | Operator | Description         | Example (`a=10, b=5`) | Result |
@@ -31,7 +32,7 @@ public class Main
 
 ---
 
-## 🔹 2. Relational (ComparisonE) Operators
+## 🔹 2. Relational (Comparison) Operators
 
 Used to compare two values. Returns a **boolean** (`true` or `false`).
 
@@ -59,12 +60,12 @@ public class Main
 
 ---
 
-## 🔹 3. LogicalE Operators
+## 🔹 3. Logical Operators
 
 Used to combine multiple conditions. Works with boolean values.
 
-| Operator | Description | Example                 | Result |
-|----------|-------------|-------------------------|--------|
+| Operator | Description  | Example                 | Result |
+|----------|--------------|-------------------------|--------|
 | `&&`     | LogicalE AND | `(a > b) && (a < 20)`   | true   |
 | `\|\|`   | LogicalE OR  | `(a > b) \|\| (b > 20)` | true   |
 | `!`      | LogicalE NOT | `!(a > b)`              | false  |
@@ -84,7 +85,7 @@ public class Main
 
 ---
 
-## 🔹 4. AssignmentE Operators
+## 🔹 4. Assignment Operators
 
 Used to assign values to variables.
 
@@ -112,16 +113,16 @@ public class Main
 
 ---
 
-## 🔹 5. UnaryE Operators
+## 🔹 5. Unary Operators
 
 Used with a single operand.
 
-| Operator | Description                  | Example (`a=10`) | Result |
-|----------|------------------------------|------------------|--------|
+| Operator | Description                   | Example (`a=10`) | Result |
+|----------|-------------------------------|------------------|--------|
 | `+`      | UnaryE plus (positive value)  | `+a`             | 10     |
 | `-`      | UnaryE minus (negative value) | `-a`             | -10    |
-| `++`     | Increment (adds 1)           | `a++`            | 11     |
-| `--`     | Decrement (subtracts 1)      | `a--`            | 9      |
+| `++`     | Increment (adds 1)            | `a++`            | 11     |
+| `--`     | Decrement (subtracts 1)       | `a--`            | 9      |
 | `!`      | LogicalE NOT                  | `!(a > 0)`       | false  |
 
 ```java
@@ -136,9 +137,10 @@ public class Main
 }
 
 ```
+
 ---
 
-## 🔹 6. TernaryE Operator
+## 🔹 6. Ternary Operator
 
 A shorthand for `if-else`.
 

@@ -23,9 +23,9 @@
  * boolean myBoolean = true; declares a boolean variable named myBoolean and initializes it with the value true
  */
 
-public class Variables 
+public class Variables
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         // Variable declaration and initialization
         int myNumber = 10;

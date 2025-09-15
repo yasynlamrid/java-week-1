@@ -6,7 +6,9 @@ They are essential for automating repetitive tasks.
 ---
 
 ## 🔹 1. `for` Loop
+
 **Example:**
+
 ```java
 public class Main 
 {
@@ -22,7 +24,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 i = 1
 i = 2
 i = 3
@@ -53,7 +55,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 i = 1
 i = 2
 i = 3
@@ -84,7 +86,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 i = 1
 i = 2
 i = 3
@@ -114,7 +116,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 10
 20
 30
@@ -145,7 +147,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 i = 1, j = 1
 i = 1, j = 2
 i = 2, j = 1
@@ -177,9 +179,8 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 1
 2
 4
 ```
-

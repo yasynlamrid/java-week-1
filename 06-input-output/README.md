@@ -10,7 +10,9 @@ The most common I/O in beginner programs is **console input and output**.
 Java provides the `System.out` object for printing messages to the console.
 
 ### 1.1 `println`
+
 Prints the message **and moves to a new line**.
+
 ```java
 public class Main 
 {
@@ -24,7 +26,7 @@ public class Main
 
 **Output:**
 
-```
+```bash
 Hello, World!
 Welcome to Java I/O
 ```
@@ -46,7 +48,7 @@ public class Main
 
 **Output:**
 
-```
+```bash
 Hello, World!
 ```
 
@@ -68,7 +70,7 @@ public class Main
 
 **Output:**
 
-```
+```bash
 Age: 25, Height: 5.9 feet
 ```
 
@@ -168,13 +170,13 @@ public class Main
 
 **Sample Input:**
 
-```
+```bash
 5.5
 4.5
 ```
 
 **Output:**
 
-```
+```bash
 The sum of 5.50 and 4.50 is 10.00
 ```

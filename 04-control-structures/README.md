@@ -6,6 +6,7 @@ This guide covers  **if, else if, else**, and **switch** statements.
 ---
 
 ## 🔹 1. `if` Statement
+
 The `if` statement executes a block of code **only if a specified condition is true**.
 
 ```java
@@ -25,7 +26,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 You are an adult.
 ```
 
@@ -43,9 +44,12 @@ public class Main
     {
         int number = 10;
 
-        if (number % 2 == 0) {
+        if (number % 2 == 0) 
+        {
             System.out.println("Even number");
-        } else {
+        } 
+        else 
+        {
             System.out.println("Odd number");
         }
     }
@@ -55,7 +59,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 Even number
 ```
 
@@ -72,13 +76,20 @@ public class Main
     {
         int marks = 75;
 
-        if (marks >= 90) {
+        if (marks >= 90) 
+        {
             System.out.println("Grade A");
-        } else if (marks >= 75) {
+        } 
+        else if (marks >= 75) 
+        {
             System.out.println("Grade B");
-        } else if (marks >= 50) {
+        }
+        else if (marks >= 50) 
+        {
             System.out.println("Grade C");
-        } else {
+        } 
+        else 
+        {
             System.out.println("Grade F");
         }
     }
@@ -88,7 +99,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 Grade B
 ```
 
@@ -140,7 +151,7 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 Day: Wednesday
 ```
 
@@ -167,8 +178,10 @@ public class Main
     public static void main(String[] args) 
     {
         int score = 85;
-        if (score >= 0 && score <= 100) {
-            switch (score / 10) {
+        if (score >= 0 && score <= 100) 
+        {
+            switch (score / 10) 
+            {
                 case 10:
                 case 9:
                     System.out.println("Grade: A");
@@ -185,7 +198,9 @@ public class Main
                 default:
                     System.out.println("Grade: F");
             }
-        } else {
+        } 
+        else 
+        {
             System.out.println("Invalid score");
         }
     }
@@ -195,8 +210,6 @@ public class Main
 
 ✅ Output:
 
-```
+```bash
 Grade: B
 ```
-
-
