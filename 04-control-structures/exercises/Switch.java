@@ -129,19 +129,19 @@ public class Switch
                 System.out.println("Excellent");
                 break;
             case 'B':
-                System.out.println("Good job");
+                System.out.println("Good");
                 break;
             case 'C':
-                System.out.println("Fair effort");
+                System.out.println("Average");
                 break;
             case 'D':
-                System.out.println("You passed");
+                System.out.println("Below Average");
                 break;
             case 'F':
-                System.out.println("Failed");
+                System.out.println("Fail");
                 break;
             default:
-                System.out.println("Invalid grade.");
+                System.out.println("Invalid grade");
         }
 
 
@@ -154,7 +154,7 @@ public class Switch
                 System.out.println("Red");
                 break;
             case 2:
-                System.out.println("Orange");
+                System.out.println("Yellow");
                 break;
             case 3:
                 System.out.println("Green");
