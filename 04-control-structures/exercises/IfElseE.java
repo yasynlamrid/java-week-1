@@ -47,12 +47,90 @@ public class IfElseE
         // -------------------- Student Exercises --------------------
         // 1. Check if x is even or odd.
 
+        int x = 5;
+        if(x % 2 ==0) {
+
+            System.out.println("The number is even");
+        }
+        else {
+
+            System.out.println("The number is odd");
+
+        }
+
         // 2. Check age and print "Adult" or "Minor".
+
+        int age = 23;
+        if(age >= 18 ){
+
+            System.out.println("You are adult");
+
+        }
+
+        else {
+
+            System.out.println("You are Minor");
+
+        }
 
         // 3. Assign grades based on score using if-else if-else.
 
+        int score = 85;
+        char grade;
+
+        if (score >= 90) {
+            grade = 'A';
+        } else if (score >= 80) {
+            grade = 'B';
+        } else if (score >= 70) {
+            grade = 'C';
+        } else if (score >= 60) {
+            grade = 'D';
+        } else {
+            grade = 'F';
+        }
+
+        System.out.println("Score: " + score);
+        System.out.println("Grade: " + grade);
+
+
         // 4. Check temperature and print "Hot", "Warm", or "Cold".
 
+        int temperature = 12;
+                if (temperature >= 30) {
+
+                    System.out.println("Hot");
+
+                } else if (temperature >= 15) {
+
+                    System.out.println("Warm");
+
+                }else {
+
+                    System.out.println("Cold");
+                }
+
+
         // 5. Check if n is positive AND even using logical operators.
+
+        int n = 15;
+
+        if (n > 0) {
+            if (n % 2 == 0) {
+                System.out.println("The number " + n + " is positive and even");
+            } else {
+                System.out.println("The number " + n + " is positive and odd");
+            }
+        } else if (n < 0) {
+            if (n % 2 == 0) {
+                System.out.println("The number " + n + " is negative and even");
+            } else {
+                System.out.println("The number " + n + " is negative and odd");
+            }
+        } else {
+            System.out.println("The number is zero");
+        }
+
     }
 }
+
